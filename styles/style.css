@@ -70,13 +70,15 @@ body{
   float: left;
   height: 90vh;
   width: 40%;
+  border-radius: 10px;
 }
 @keyframes animate{
   from{
     width: 33vw;
     height: 95vh;
     padding: 1em;
-    background-color: #131212;
+    background-color: Black;
+    border-radius: 10px;
   }
   to{
     background-color:orangered;
@@ -87,6 +89,7 @@ body{
   height: 95vh;
   padding: 1em;
   background-color: Black;
+  border-radius: 10px;
   animation:animate 1s 1s 10000 alternate;
 }
 #Information h1{
@@ -110,6 +113,7 @@ body{
   margin-right: 8%;
   padding-top: 1em;
   border: 5px solid orangered;
+  border-radius: 10px;
   height: 25vh;
   width:50vw;
   text-align: center;
@@ -136,6 +140,7 @@ body{
     width:50.6vw;
     float:right;
     margin-right: 8%;
+    border-radius: 10px;
   }
   to{
     background-color:#131212;
@@ -150,6 +155,7 @@ body{
   width:50.6vw;
   float:right;
   margin-right: 8%;
+  border-radius: 10px;
   animation:animaBefore 1s 1s 10000 alternate;
 }
 #Text-before p b{
@@ -252,6 +258,7 @@ body{
   float: left;
   margin-left:3%;
   cursor: pointer;
+  border-radius: 10px;
 }
 /* Linha divisória de parágrafos */
 #hr1{
@@ -278,6 +285,7 @@ body{
 }
 #images{
   background-color:white;
+  border-radius: 10px;
   width:95%;
   height:67%;
   float: left;
@@ -321,12 +329,13 @@ body{
     background-color:#131212;
   }
 }
-#animaHob-1{
+#Hob-1{
   height: 85%;
   width: 49.5%;
   border: 3px solid white;
   float: left;
   background-color: rgb(255, 8, 0);
+  border-radius: 10px;
   animation:animaHob-1 2s 2s 10000 alternate;
 }
 #Hob-1 p{
@@ -360,6 +369,7 @@ body{
     float: right;
     margin-right: 31%;
     margin-top: 4.9%;
+    border-radius:10px;
   }
   to{
     width: 35%;
@@ -373,6 +383,7 @@ body{
   float: right;
   margin-right: 31%;
   margin-top: 4.9%;
+  border-radius:10px;
   animation: Foto1 0.8s 0.5s 10000 alternate; 
 }
 @keyframes animaHob-2{
@@ -387,12 +398,13 @@ body{
     background-color:#131212;
   }
 }
-#animaHob-2{
+#Hob-2{
   height: 85%;
   width: 49.5%;
   border: 3px solid white;
   float: right;
   background-color: rgb(255, 8, 0);
+  border-radius:10px;
   animation:animaHob-2 2s 2s 10000 alternate;
 }
 #Hob-2 p{
@@ -424,6 +436,7 @@ body{
     width: 32%;
     float: right;
     margin-right: 31%;
+    border-radius:10px;
   }
   to{
     margin-top: 0.5%;
@@ -433,6 +446,7 @@ body{
   width: 32%;
   float: right;
   margin-right: 31%;
+  border-radius:10px;
   animation: Foto2 0.8s 0.5s 10000 alternate; 
 }
 #Contact{
