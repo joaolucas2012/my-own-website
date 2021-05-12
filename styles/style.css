@@ -5,7 +5,7 @@ body{
   margin: 0 auto;
   background:linear-gradient(to top, black, rgb(49, 6, 56), rgba(9, 40, 47, 0.87));
 }
-.Menu{
+#Menu{
   top: 6.4%;
   position:fixed;
   display: flex;
@@ -18,55 +18,55 @@ body{
   padding-top: 0.4%;
   padding-bottom:0.4%;
 }
-.logo {
+#logo {
   float: left;
   margin-left: 2%;
   width: 20%;
   font-size: 20pt;
   text-align: center;
 }
-.logo a p b{
+#logo a p b{
   color:orangered;
   font-size:25pt;
 }
-.logo a:hover{
+#logo a:hover{
   color: aqua;
 }
-.logo a{
+#logo a{
   text-decoration: none;
   color: white;
   font-family:monospace;
   text-transform: uppercase;
   font-size: 20pt;
 }
-.Links{
+#Links{
   position: relative;
   float: left;
   align-items: center;  
   width:80%;
   text-align: center;
 }
-.Links ul li{
+#Links ul li{
   padding:2%;
   float: right;
   position: relative;
   margin-bottom: 1.5%;
   list-style-type: none;
 }
-.Links ul li a b{
+#Links ul li a b{
   color: orangered;
 }
-.Links ul li a{
+#Links ul li a{
   text-decoration: none;
   color: white;
   font-family:monospace;
   text-transform: uppercase;
   font-size: 20pt;
 }
-.Links ul li a:hover{
+#Links ul li a:hover{
   color: aqua;
 }
-.Container{
+#Container{
   float: left;
   height: 90vh;
   width: 40%;
@@ -89,7 +89,7 @@ body{
   background-color: Black;
   animation:animate 1s 1s 10000 alternate;
 }
-.Information h1{
+#Information h1{
   text-align: center;
   font-family:monospace;
   text-transform: uppercase;
@@ -98,12 +98,12 @@ body{
   text-shadow: 10px 8px 12px black;
   margin-top:4.3%;
 }
-.Information h1 b{
+#Information h1 b{
   color: orangered;
   font-size: 50pt;
   text-shadow: 10px 10px 8px black;
 }
-.Data p{
+#Data p{
   font-family:monospace;
   font-size: 2.7em;
   float:right;
@@ -116,14 +116,14 @@ body{
   color:white;
   background-color:#131212;
 }
-.Data p b{
+#Data p b{
   color: orangered;
 }
-.Data p a{
+#Data p a{
   text-decoration: none;
   color: white;
 }
-.Data a strong:hover{
+#Data a strong:hover{
   color: aqua;
 }
 @keyframes animaBefore{
@@ -141,7 +141,7 @@ body{
     background-color:#131212;
   }
 }
-#animaBefore{
+#Text-before{
   background-color:orangered;
   text-align:center;
   justify-content:center;
@@ -152,22 +152,22 @@ body{
   margin-right: 8%;
   animation:animaBefore 1s 1s 10000 alternate;
 }
-.Text-before p b{
+#Text-before p b{
   font-size:19pt;
   font-family:monospace;
   color: white;
   text-align: center;
 }
-.Text-before a{
+#Text-before a{
   text-transform: uppercase;
 }
-.Text-before p b a:visited{
+#Text-before p b a:visited{
   color: white;
 }
-.Text-before p b a:hover{
+#Text-before p b a:hover{
   color:aqua;
 }
-.Chapolin{
+#Chapolin{
   position: relative;
   float: left;
   width: 100%;
@@ -175,12 +175,12 @@ body{
   background-color: white;
   margin-top:4.5%;
 }
-.Chapolin img{
+#Chapolin img{
   float: left;
   width:20%;
   margin-left:10em;
 }
-.Chapolin p{
+#Chapolin p{
   float: right;
   width: 50%;
   margin-right: 8%;
@@ -210,14 +210,14 @@ body{
   float: left;
   animation: animaAcademic2 2s 2s 10000 alternate;
 }
-.DataAcademic{
+#DataAcademic{
   float: left;
   width: 50%;
   height: 98%;
   border: solid 3px black;
   background-color:rgb(49, 6, 56);
 }
-.DataAcademic p b{
+#DataAcademic p b{
   font-family: monospace;
   font-size:2.5em;
   color: white;
@@ -226,48 +226,48 @@ body{
   margin-top: 3%;
   margin-left: 0.5%;
 }
-.DataAcademic p a b{
+#DataAcademic p a b{
   margin-left: 2%;
 }
-.DataAcademic p a b:visited{
+#DataAcademic p a b:visited{
   font-family: monospace;
   text-align: center;
   float: left;
 }
-.DataAcademic p a b:hover{
+#DataAcademic p a b:hover{
   color: aqua;
 }
-.DataAcademic p a img{
+#DataAcademic p a img{
   position: relative;
   float: left;
   width: 11%;
 }
-.DataAcademic p a img:hover{
+#DataAcademic p a img:hover{
   margin-top:1px;
   margin-left:1.9%;
   margin-left:2.9%;
 }
-.DataAcademic img{
+#DataAcademic img{
   width:50%;
   float: left;
   margin-left:3%;
   cursor: pointer;
 }
 /* Linha divisória de parágrafos */
-.hr1{
+#hr1{
   margin-top:15%;
   border: 0;
   border-top: 0.5px solid #CCC;
   margin-inline-end: 1%;
 }
-.Interests{
+#Interests{
   float:right;
   width: 49%;
   height: 98%;
   border: solid 3px black;
   background-color:rgb(49, 6, 56);
 }
-.Interests p{
+#Interests p{
   font-family: monospace;
   font-size:3em;
   color: white;
@@ -276,29 +276,29 @@ body{
   margin-top: 3%;
   margin-left: 0.5%;
 }
-.images{
+#images{
   background-color:white;
   width:95%;
   height:67%;
   float: left;
   margin-left: 2.5%;
 }
-.images a img{
+#images a img{
   width:42%;
   margin-left:5%;
   justify-content: center;
 }
-.images a img:hover{
+#images a img:hover{
   width:41.6%;
 }
-.Hobbies{
+#Hobbies{
   width: 100%;
   height:60%;
   float: left;
   position: relative;
   background-color:black;
 }
-.Hobbies p{
+#Hobbies p{
   float: center;
   text-align: center;
   font-size: 3em;
@@ -306,7 +306,7 @@ body{
   color: white;
   text-transform: uppercase;
 }
-.Hobbies p b{
+#Hobbies p b{
   color: orangered;
 }
 @keyframes animaHob-1{
@@ -329,11 +329,11 @@ body{
   background-color: rgb(255, 8, 0);
   animation:animaHob-1 2s 2s 10000 alternate;
 }
-.Hob-1 p{
+#Hob-1 p{
   width: 95%;
   margin-left: 3%;
 }
-.Hob-1 p a b{
+#Hob-1 p a b{
   position: relative;
   float: left;
   color: white;
@@ -341,19 +341,19 @@ body{
   font-size:0.8em;
   margin-top:0.5%;
 }
-.Hob-1 p a b:hover{
+#Hob-1 p a b:hover{
   color:aqua;
 }
-.Hob-1 p a{
+#Hob-1 p a{
   text-decoration: underline;
 }
-.Hob-1 p a:visited{
+#Hob-1 p a:visited{
   color: white;
 }
-.Hob-1 p a:hover{
+#Hob-1 p a:hover{
   color:aqua;
 }
-@keyframes animaFoto1{
+@keyframes Foto1{
   from{
     width: 35%;
     height:40%;
@@ -367,13 +367,13 @@ body{
     margin-top: 4.5%;
   }
 }
-#animaFoto1{
+#Foto1{
   width: 35%;
   height:40%;
   float: right;
   margin-right: 31%;
   margin-top: 4.9%;
-  animation: animaFoto1 0.8s 0.5s 10000 alternate; 
+  animation: Foto1 0.8s 0.5s 10000 alternate; 
 }
 @keyframes animaHob-2{
   from{
@@ -395,11 +395,11 @@ body{
   background-color: rgb(255, 8, 0);
   animation:animaHob-2 2s 2s 10000 alternate;
 }
-.Hob-2 p{
+#Hob-2 p{
   width: 95%;
   margin-left: 3%;
 }
-.Hob-2 p a b{
+#Hob-2 p a b{
   position: relative;
   float: left;
   color: white;
@@ -407,19 +407,19 @@ body{
   font-size:0.8em;
   margin-left: 1%;
 }
-.Hob-2 p a b:hover{
+#Hob-2 p a b:hover{
   color:aqua;
 }
-.Hob-2 p a{
+#Hob-2 p a{
   text-decoration: underline;
 }
-.Hob-2 p a:visited{
+#Hob-2 p a:visited{
   color: white;
 }
-.Hob-2 p a:hover{
+#Hob-2 p a:hover{
   color:aqua;
 }
-@keyframes animaFoto2{
+@keyframes Foto2{
   from{
     width: 32%;
     float: right;
@@ -429,13 +429,13 @@ body{
     margin-top: 0.5%;
   }
 }
-#animaFoto2{
+#Foto2{
   width: 32%;
   float: right;
   margin-right: 31%;
-  animation: animaFoto2 0.8s 0.5s 10000 alternate; 
+  animation: Foto2 0.8s 0.5s 10000 alternate; 
 }
-.Contact{
+#Contact{
   width: 100%;
   height:20%;
   position: relative;
@@ -443,7 +443,7 @@ body{
   margin-top:5%;
   background-color:black;
 }
-.Contact p b{
+#Contact p b{
   float: center;
   text-align: center;
   font-size: 1.5em;
@@ -451,7 +451,7 @@ body{
   color: orangered;
   text-transform: uppercase;
 }
-.Contact p{
+#Contact p{
   float: center;
   text-align: center;
   font-size: 29pt;
@@ -459,7 +459,7 @@ body{
   text-transform: uppercase;
   color: white;
 }
-.allCont{
+#allContact{
   width: 100%;
   height:60%;
   position: relative;
@@ -479,7 +479,7 @@ body{
     background-color:orangered;
   }
 }
-.YtLinked{
+#YtLinked{
   width: 32%;
   height:90%;
   position: relative;
@@ -489,25 +489,25 @@ body{
   margin-left: 1%;
   border-radius: 15px;
 }
-.YtLinked p{
+#YtLinked p{
   font-size:13pt;
   font-family: monospace;
   color: white;
   text-align: center;
 }
-.YtLinked p b{
+#YtLinked p b{
   font-size:14pt;
   font-family: monospace;
   color: orangered;
   text-align: center;
 }
-.YtLinked strong{
+#YtLinked strong{
   font-size:15pt;
   font-family: monospace;
   text-align: center;
   color: orangered;
 }
-.Yt-2{
+#Yt-2{
   width:22%;
   height:20%;
   float:left;
@@ -515,10 +515,10 @@ body{
   margin-top: 2%;
   padding-bottom: 1.5%;
 }
-.Yt-2:hover{
+#Yt-2:hover{
   width:21.8%;
 }
-.linkedin-2{
+#linkedin-2{
   width:20%;
   height:20%;
   float:left;
@@ -526,10 +526,10 @@ body{
   margin-top: 1%;
   padding-bottom: 1.5%;
 }
-.linkedin-2:hover{
+#linkedin-2:hover{
   width:19.8%;
 }
-.JustGit{
+#JustGit{
   width: 32%;
   height:90%;
   position: relative;
@@ -539,36 +539,36 @@ body{
   margin-left: 1%;
   border-radius: 15px;
 }
-.JustGit p{
+#JustGit p{
   font-size:14pt;
   font-family: monospace;
   color: white;
   text-align: center;
 }
-.JustGit p b{
+#JustGit p b{
   font-size:15pt;
   font-family: monospace;
   color: orangered;
   text-align: center;
 }
-.Git-2{
+#Git-2{
   width:35%;
   height:40%;
   float:left;
   margin-left: 35%;
   padding-bottom: 1.5%;
 }
-.Git-2:hover{
+#Git-2:hover{
   width:34.7%;
 }
-.JustGit strong{
+#JustGit strong{
   font-size:15pt;
   font-family: monospace;
   text-align: center;
   margin-left: 7%;
   color: orangered;
 }
-.FaceGmail{
+#FaceGmail{
   width: 32%;
   height:90%;
   position: relative;
@@ -578,63 +578,63 @@ body{
   margin-left: 1%;
   border-radius: 15px;
 }
-.FaceGmail p{
+#FaceGmail p{
   font-size:13.2pt;
   font-family: monospace;
   color: white;
   text-align: center;
 }
-.FaceGmail p b{
+#FaceGmail p b{
   font-size:15pt;
   font-family: monospace;
   color: orangered;
   text-align: center;
 }
-.Face-2{
+#Face-2{
   width:20%;
   height:25%;
   float:left;
   margin-left: 40%;
   padding-bottom: 1.5%;
 }
-.Face-2:hover{
+#Face-2:hover{
   width:19.8%;
 }
-.Gmail-2{
+#Gmail-2{
   width:18%;
   height:16%;
   float:left;
   margin-left: 40%;
   padding-bottom: 1.8%;
 }
-.Gmail-2:hover{
+#Gmail-2:hover{
   width:17.8%;
 }
-.FaceGmail strong{
+#FaceGmail strong{
   font-size:15pt;
   font-family: monospace;
   text-align: center;
   color: orangered;
 }
-.Mensagem{
+#Mensagem{
   width:100%;
   height:4%;
   position:relative;
   float:left;
 }
-.Mensagem p{
+#Mensagem p{
   color: white;
   font-size:25pt;
   font-family: monospace;
   text-align: center;
 }
-.Mensagem p b{
+#Mensagem p b{
   color: orangered;
   font-size:30pt;
   font-family: monospace;
   text-align: center;
 }
-.Footerfinal{
+#Footerfinal{
   height:12vh;
   width:100%;
   position: relative;
@@ -643,7 +643,7 @@ body{
   z-index: -1;
   margin-top:5%;
 }
-.copy p{
+#copy p{
   width:31%;
   color: white;
   font-size:1.6em;
@@ -651,18 +651,18 @@ body{
   float: left;
   margin-left: 2%;
 }
-.copy p b{
+#copy p b{
   color: orangered;
   font-size:1.51em;
   text-transform: uppercase;
 }
-.copy ul{
+#copy ul{
   width: 40%;
   float: right;
   margin-right: 2%;
   justify-content:center;
 }
-.copy ul li{
+#copy ul li{
   float: right;
   text-align: center;
   padding-left: 5%;
@@ -670,18 +670,18 @@ body{
   margin-top: 2%;
   margin-right: 2%;;
 }
-.copy ul li:hover{
+#copy ul li:hover{
   padding-top:1%;
 }
-.Yt{
+#Yt{
   width:40px;
   height:26px;
 }
-.Gmail{
+#Gmail{
   width:35px;
   height:24px;
 }
-.Git{
+#Git{
   width:35px;
   height:35px;
 }
